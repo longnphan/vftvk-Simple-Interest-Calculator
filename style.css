@@ -1,4 +1,38 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
 
+.content {
+    display: flex;
+    width: 80%;
+}
 
+h1 {
+    color: grey;
+    font-family: Verdana;
+}
+
+input {
+    width: 100%;
+}
+.inputs {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: auto;
+    width: 300px;
+}
+label {
+    width: 150px;
+}
+
+.maindiv {
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    padding: 20px;
+    width: 500px;
+}
